@@ -1,0 +1,22 @@
+/* .footer-section,
+.copyright-wrapper {
+    background-color: #e8eefb;
+}
+
+.copyright-area p a:hover {
+    color: #02a16d;
+    transition: 0.3s all;
+}
+
+.footer-social li a:hover {
+    transform: scale(1.1);
+}
+
+.footer-list li a:hover {
+    transform: scale(1.1);
+} */
+
+.footer-section{
+    background-color: #edca00;
+    /* opacity: 80%; */
+}

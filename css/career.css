@@ -1,0 +1,92 @@
+.carousel-item img {
+    height: 400px; /* Adjust the height as needed */
+    object-fit: cover;
+}
+
+#career {
+    background-color: #fff5e1; /* Cream color background */
+}
+
+.title h2 {
+    font-size: 2.5rem;
+    color: #eab308; /* Blue color for title */
+}
+
+.lead {
+    font-size: 1.2rem;
+    color: #333; /* Dark text color */
+}
+
+/* .btn-view .btn-primary {
+    background: linear-gradient(45deg, #eab308, #f59e0b); 
+    border-color: #eab308;
+    border-radius: 25px;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    color: #ffffff; 
+    transition: transform 0.3s, box-shadow 0.3s, background-position 0.3s; 
+    position: relative;
+    overflow: hidden; 
+}
+
+.btn-primary:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    background-position: right center; 
+}
+
+
+.btn-primary::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(45deg, #eab308, #f59e0b);
+    z-index: -1;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn-primary:hover::after {
+    transform: scale(2);
+    opacity: 0; 
+} */
+
+
+.image-container {
+    perspective: 1000px;
+}
+
+
+
+.flip-image {
+    transition: transform 0.8s, opacity 0.8s, box-shadow 0.8s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.flip-image:hover {
+    transform: rotateY(180deg);
+    opacity: 0.7;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+#join-us {
+    background-color: #fff5e1; /* Lighter shade of #edca00 
+    /* background-color: #f5f5f5; */
+}
+
+.join-btn {
+    background: linear-gradient(45deg, #eab308, #f59e0b); 
+    border-color: #eab308;
+    border-radius: 25px;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.join-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
