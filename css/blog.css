@@ -1,0 +1,116 @@
+.search-banner{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /* width: 500px; */
+    margin-left: 70px;
+    position: relative;
+}
+
+
+.search-box-blog{
+    background-color: #f3dd4169;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    padding: 0px 5px 0px 20px;
+    border-radius: 30px;
+}
+.search-box-blog i{
+    font-size: 1.3rem;
+    color: #3b3b3b;
+    margin: 0px 10px;
+}
+.search-box-blog .search-input{
+    height: 40px;
+    border: none;
+    width: 100%;
+    padding: 0px 10px;
+    outline: none;
+}
+
+.search-box-blog .search-btn{
+    width:220px;
+    height: 45px;
+    background: linear-gradient(45deg, #eab308, #f59e0b); 
+    border-color: #eab308;
+    border-radius: 25px;
+    /* padding: 15px 30px; */
+    font-size: 1.2rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.search-box-blog.search-btn:hover{
+    /* background-color: #5ccf71; */
+    /* background-color: #e0d85b; */
+    transition: all ease 0.3s;
+}
+
+
+
+/*==category================================*/
+#category,
+#popular-product,
+#popular-bundle-pack,
+#partner{
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 50px auto;
+}
+.category-heading,
+.product-heading,
+.partner-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.category-heading h2,
+.product-heading h3,
+.partner-heading h3{
+    font-size: 1.56rem;
+    font-weight: 700;
+    color: #202020;
+    letter-spacing: 0.5px;
+}
+.category-heading span,
+.product-heading span{
+    color: #a7a7a7;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.category-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.category-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fafafa;
+    border-radius: 10px;
+    min-height: 130px;
+    width: 120px;
+    border: 1px solid rgba(0,0,0,0.03);
+}
+.category-box img{
+    /* height: 35px; */
+    width: 60px;
+    object-fit: contain;
+    object-position: center;
+    transition: all ease 0.1s;
+}
+.category-box span{
+    color: #393939;
+    font-size: 0.8rem;
+    margin-top: 20px;
+    letter-spacing: 0.3px;
+    font-weight: 600;
+}
+.category-box:hover img{
+    transform: scale(1.1);
+    transition: all ease 0.1s;
+}

@@ -1,0 +1,128 @@
+
+/* Partners Section */
+.partner-section {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+.partner-section h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.partner-section p {
+    text-align: center;
+}
+
+/* Franchise Opportunities */
+.franchise-opportunities {
+    padding: 0 20px;
+}
+
+.franchise-opportunities h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+/* Customer Reviews */
+/* .customer-reviews {
+    padding: 0 20px;
+}
+
+.customer-reviews h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.card {
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 20px;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.card-text {
+    color: #666;
+} */
+
+/* Button */
+/* .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+} */
+
+#join-us {
+    background-color: #fff5e1; /* Lighter shade of #edca00 
+    /* background-color: #f5f5f5; */
+}
+
+/* Styling for Customer Review Cards */
+.card {
+    /* background-color: rgb(194, 247, 247); */
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  .review{
+    background-color: rgba(236, 217, 47, 0.993);
+  }
+  
+  .card:hover {
+    background-color: rgb(167, 248, 248); /* Change background color on hover */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    color: #333;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    color: #666;
+    font-size: 1rem;
+  }
+  
+  /* Styling for Customer Reviews Section Title */
+  h2 {
+    color: #333;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Media Query for Responsive Design */
+  @media (max-width: 768px) {
+    .col-md-6 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+  
