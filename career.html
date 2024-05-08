@@ -8,16 +8,17 @@
   <link rel="shortcut icon" type="image/jpg" href="../grofkit/favicon_io/favicon.ico" />
   <title>Grofkit</title>
 
-  <link rel="stylesheet" href="../grofkit/css/index.css">
-  <link rel="stylesheet" href="../grofkit/css/footer.css">
-  <!-- font Awsome cdn-->
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/blog.css">
+
+
+  <!-- fontawsome cdn-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--end fontawsome cdn-->
 
-  <!--  Bootstrap CSS-->
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
@@ -27,25 +28,24 @@
   <nav class="navbar navbar-expand-lg sticky-top justify-content-between">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
-        <img src="../grofkit/images/logo.jpeg" alt="Logo" width="200" height="60" class="d-inline-block align-text-top">
+        <img src="./images/logo.jpeg" alt="Logo" width="200" height="60" class="d-inline-block align-text-top">
       </a>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav mx-auto text-center">
           <li class="nav-item px-2 py-2">
-            <a class="nav-link text-uppercase text-dark active" aria-current="page"
-              href="../grofkit/index.html">Home</a>
+            <a class="nav-link text-uppercase text-dark active" aria-current="page" href="./index.html">Home</a>
           </li>
           <li class="nav-item px-2 py-2">
-            <a class="nav-link text-uppercase text-dark" href="../grofkit/career.html">Career</a>
+            <a class="nav-link text-uppercase text-dark" href="./career.html">Career</a>
           </li>
           <li class="nav-item px-2 py-2">
-            <a class="nav-link text-uppercase text-dark" href="../grofkit/partner.html">Partner</a>
+            <a class="nav-link text-uppercase text-dark" href="./partner.html">Partner</a>
           </li>
           <li class="nav-item px-2 py-2">
-            <a class="nav-link text-uppercase text-dark" href="../grofkit/aboutus.html">About</a>
+            <a class="nav-link text-uppercase text-dark" href="./aboutus.html">About</a>
           </li>
           <li class="nav-item px-2 py-2 border-0">
-            <a class="nav-link text-uppercase text-dark" href="../grofkit/blog.html">Blog</a>
+            <a class="nav-link text-uppercase text-dark" href="./blog.html">Blog</a>
           </li>
         </ul>
       </div>
@@ -68,113 +68,127 @@
     </div>
     <div class="offcanvas-body">
       <ul class="list-group text-center offcanvas-ul">
-        <li class="list-group-item border-0 mb-4"><a href="../grofkit/index.html"
-            class="text-decoration-none text-dark">Home</a></li>
-        <li class="list-group-item border-0 mb-4"><a href="../grofkit/career.html"
+        <li class="list-group-item border-0 mb-4"><a href="./index.html" class="text-decoration-none text-dark">Home</a>
+        </li>
+        <li class="list-group-item border-0 mb-4"><a href="./career.html"
             class="text-decoration-none text-dark">Career</a></li>
-        <li class="list-group-item border-0 mb-4"><a href="../grofkit/partner.html"
+        <li class="list-group-item border-0 mb-4"><a href="./partner.html"
             class="text-decoration-none text-dark">Partner</a></li>
-        <li class="list-group-item border-0 mb-4"><a href="../grofkit/aboutus.html"
+        <li class="list-group-item border-0 mb-4"><a href="./aboutus.html"
             class="text-decoration-none text-dark">About</a></li>
-        <li class="list-group-item border-0 mb-4"><a href="../grofkit/blog.html"
-            class="text-decoration-none text-dark">Blog</a></li>
+        <li class="list-group-item border-0 mb-4"><a href="./blog.html" class="text-decoration-none text-dark">Blog</a>
+        </li>
       </ul>
     </div>
   </div>
 
 
-
-
-  <!--==Search-banner=======================================-->
-  <section id="search-banner">
-    <!--bg--------->
-    <img src="../grofkit/images/bg-1.png" class="bg-1" alt="bg-1" />
-    <img src="../grofkit/images/bg-2.png" class="bg-2" alt="bg-2" />
-    <!-- <img src="../grofkit/images/pack3.png" class="bg" alt="bg" /> -->
-    <!--text------->
-    <div class="search-banner-text">
-      <h1>Order Your daily Groceries</h1>
-      <strong>#Free Delivery</strong>
-      <!--search-box------>
-      <form action="" class="search-box">
-        <!--icon------>
-        <i class="fas fa-search"></i>
-        <!--input----->
-        <input type="text" class="search-input" placeholder="Search your daily groceries" name="search" required />
-        <!--btn------->
-        <input type="submit" class="search-btn" value="Search" />
-      </form>
+  <section class="">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/fruits.png" class="d-block w-100" alt="Fruits Carousel Image">
+          <div class="carousel-caption d-none d-md-block">
+            <!-- <h5>First slide label</h5> -->
+            <!-- <h5 class="text-dark">Fresh fruits and vegetables</h5> -->
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./images/grocery-shop.jpg" class="d-block w-100" alt="Grocery Shop Carousel Image">
+          <div class="carousel-caption d-none d-md-block">
+            <!-- <p class="text-dark">Fresh fruits and vegetables</p> -->
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./images/supermarket.jpg" class="d-block w-100" alt="Supermarket Carousel Image">
+          <div class="carousel-caption d-none d-md-block">
+            <!-- <p>Fresh fruits and vegetables</p> -->
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
   </section>
-  <!--search-banner-end--------------->
 
-  <!--==category=========================================-->
-  <section id="category" class="container-fluid">
-    <!--heading---------------->
-    <div class="category-heading">
-      <h2 class="ms-4">Category</h2>
-      <span class="me-4">All</span>
-    </div>
-    <!--box-container---------->
-    <div class="category-container">
 
-      <!--box---------------->
-      <a href="#" class="category-box text-decoration-none">
-        <img src="images/category-image/personal care.jpg" alt="personal care" />
-        <span>Personal Care</span>
-      </a>
-      <!--box---------------->
-      <a href="#" class="category-box text-decoration-none">
-        <img src="images/category-image/spices.jpeg" alt="spices" />
-        <span>Spices</span>
-      </a>
-      <!--box---------------->
-      <a href="#" class="category-box text-decoration-none">
-        <img src="images/category-image/snacks.jpg" alt="beverages" />
-        <span style="">Beverages & Snacks</span>
-      </a>
-      <!--box---------------->
-      <a href="#" class="category-box text-decoration-none">
-        <img src="images/category-image/health.jpg" alt="health & wellness" />
-        <span style="">Health & Wellness</span>
-      </a>
-      <!--box---------------->
-      <a href="#" class="category-box text-decoration-none">
-        <img src="images/category-image/dairy products.jpeg" alt="dairy products" />
-        <span>Dairy Products</span>
-      </a>
-      <!--box---------------->
-      <a href="#" class="category-box text-decoration-none">
-        <img src="images/category-image/rice atta dals.jpg" alt="atta" />
-        <span>Atta Rice & Dals</span>
-      </a>
-    </div>
+  <section id="career" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="title mb-4 text-center">
+          <h2 class="position-relative d-inline-block ms-4 mt-3">Join Our Team</h2>
+        </div>
+        <div class=" col-md-6 text-center my-3 pb-5 ">
+          <img src="./images/grocery-shop.jpg" alt="Career Image" class="img-fluid  shadow">
+        </div>
+        <div class="col-md-6">
+          <div class="career-content">
+            <!-- <div class="title mb-4 text-center">
+              <h2 class="position-relative d-inline-block ms-4 mt-3">Join Our Team</h2>
+            </div> -->
+
+            <p class="lead">Our vision is to create opportunities and empower Indians through innovative technology,
+              seamless business solutions, and a unique shopping experience. We are always on the lookout for talented
+              and ambitious individuals to join our team and contribute to the e-grocery industry's growth.</p>
+
+          </div>
+        </div>
+        <div class="text-center btn-view">
+          <button class="btn btn-warning btn-lg join-btn align-items-center">
+            <a href="#" class="text-decoration-none text-dark">View Open Positions</a>
+          </button>
+        </div>
+      </div>
   </section>
-  <!--category-end----------------------------------->
 
 
-  <!--==download-app====================================-->
-  <section id="download-app">
-    <!--img----------------------->
-    <div class="app-img">
-      <img src="images/mobile-app.jpeg" alt="app" />
-    </div>
-    <!--text---------------------->
-    <div class="download-app-text">
-      <strong>Download App</strong>
-      <p>
-        Welcome to Shop Smart, the app that revolutionizes the way you shop for groceries! Say goodbye to long lines,
-        crowded aisles, and forgotten shopping lists. With Shop Smart, you can streamline your grocery shopping
-        experience, save time, and make smarter choices for your pantry and wallet.
-      </p>
-      <!--btns------->
-      <div class="download-btns">
-        <a href="#"><img src="images/appstore-btn.png" alt="" /></a>
-        <a href="#"><img src="images/googleplay-btn.png" alt="" /></a>
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="row gy-lg-5 align-items-center">
+        <div class="col-lg-6 order-lg-1 text-center text-lg-start">
+          <div class="title pt-3 pb-5">
+            <h2 class="position-relative d-inline-block ms-4">Unlock Your Potential with Learning and Development</h2>
+          </div>
+          <p class="lead text-muted">Join our vibrant learning community where we empower you to grow through
+            mentorship, interactive workshops, knowledge-sharing forums, and personalized learning programs. Explore
+            your passions, expand your horizons, and achieve your career goals with us.</p>
+        </div>
+        <div class="col-lg-6 order-lg-0">
+          <div class="image-container">
+            <img src="./images/shop.jpg" alt="" class="img-fluid flip-image">
+          </div>
+        </div>
       </div>
     </div>
   </section>
-  <!--download-app-section-end------------------------->
+
+
+  <section id="join-us" class="py-5 text-center">
+    <div class="container">
+      <h2 class="mb-4">Come Join Us</h2>
+      <p class="lead mb-5">Unlock endless opportunities, connect with like-minded individuals, and embark on a journey
+        of growth and discovery.</p>
+      <button class="btn btn-warning btn-lg join-btn">Join Now</button>
+    </div>
+  </section>
+
+
 
   <!-- Footer -->
   <div class="footer-container">
@@ -239,8 +253,8 @@
                 Company
               </h6>
               <!-- <p>
-              <a href="#!" class="text-reset">Home</a>
-            </p> -->
+            <a href="#!" class="text-reset">Home</a>
+          </p> -->
               <p>
                 <a href="../grofkit/career.html" class="text-reset">Career</a>
               </p>
@@ -306,18 +320,13 @@
   </div>
   <!-- Footer -->
 
-
   <!-- Bootstrap JS-->
   <script src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
 
   <!--  JQuery-->
   <script src="js/jquery-3.7.1.js"></script>
 
-  <!-- custom JS-->
-  <script src="js/script.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
