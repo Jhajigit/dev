@@ -35,8 +35,7 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav mx-auto text-center">
           <li class="nav-item px-2 py-2">
-            <a class="nav-link text-uppercase text-dark active" aria-current="page"
-              href="./index.html">Home</a>
+            <a class="nav-link text-uppercase text-dark active" aria-current="page" href="./index.html">Home</a>
           </li>
           <li class="nav-item px-2 py-2">
             <a class="nav-link text-uppercase text-dark" href="./career.html">Career</a>
@@ -71,16 +70,16 @@
     </div>
     <div class="offcanvas-body">
       <ul class="list-group text-center offcanvas-ul">
-        <li class="list-group-item border-0 mb-4"><a href="./index.html"
-            class="text-decoration-none text-dark">Home</a></li>
+        <li class="list-group-item border-0 mb-4"><a href="./index.html" class="text-decoration-none text-dark">Home</a>
+        </li>
         <li class="list-group-item border-0 mb-4"><a href="./career.html"
             class="text-decoration-none text-dark">Career</a></li>
         <li class="list-group-item border-0 mb-4"><a href="./partner.html"
             class="text-decoration-none text-dark">Partner</a></li>
         <li class="list-group-item border-0 mb-4"><a href="./aboutus.html"
             class="text-decoration-none text-dark">About</a></li>
-        <li class="list-group-item border-0 mb-4"><a href="./blog.html"
-            class="text-decoration-none text-dark">Blog</a></li>
+        <li class="list-group-item border-0 mb-4"><a href="./blog.html" class="text-decoration-none text-dark">Blog</a>
+        </li>
       </ul>
     </div>
   </div>
@@ -89,7 +88,7 @@
 
   <!-- Partners Section -->
 
-  <section id="join-us" class="py-5 text-center">
+  <!-- <section id="join-us" class="py-5 text-center">
     <div class="container">
       <h2 class="m-3">Partner with Us</h2>
       <p class="lead mb-5">Explore franchise opportunities to join our grocery store family.</p>
@@ -102,12 +101,10 @@
             interested in
             running your own business, consider becoming a franchisee.</p>
             <button class="btn btn-warning btn-lg join-btn mt-5">Contact us for more information</button>
-          <!-- <a>Contact us for more information.</a> -->
         </div>
         <div class="col-md-6">
           <h2>Customer Reviews</h2>
           <div class="card review border-0 shadow p-3 mb-5 rounded align-items-center">
-            <!-- <img src="" class="card-img-top" alt="John Doe"> -->
             <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
                         class="rounded-circle shadow-1-strong" width="150" height="150" />
             <div class="card-body">
@@ -134,17 +131,75 @@
                 </ul>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+
+  <section id="join-us" class="py-5 text-center">
+    <div class="container">
+      <h2 class="m-3">Partner with Us</h2>
+      <p class="lead mb-5">Explore franchise opportunities to join our grocery store family.</p>
+      <button class="btn btn-warning btn-lg join-btn" onclick="openPopupForm()">Join Now</button>
+      <div class="row mt-5">
+        <div class="col-md-6">
+          <h2>Franchise Opportunities</h2>
+          <p class="mt-5">We're expanding and looking for partners to open new branches of our grocery store. If you're interested in running your own business, consider becoming a franchisee.</p>
+          <button class="btn btn-warning btn-lg join-btn mt-5" onclick="openPopupForm()">Contact us for more information</button>
+        </div>
+        <div class="col-md-6">
+          <h2>Customer Reviews</h2>
+          <div class="card review border-0 shadow p-3 mb-5 rounded align-items-center">
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" class="rounded-circle shadow-1-strong" width="150" height="150" />
+            <div class="card-body">
+              <h5 class="card-title">John Doe</h5>
+              <p class="card-text">"Great selection of products and excellent customer service. Highly recommend!"</p>
+              <ul class="list-unstyled d-flex justify-content-center mb-0">
+                <li><i class="fas fa-star fa-sm text-warning"></i></li>
+                <li><i class="fas fa-star fa-sm text-warning"></i></li>
+                <li><i class="fas fa-star fa-sm text-warning"></i></li>
+                <li><i class="fas fa-star fa-sm text-warning"></i></li>
+                <li><i class="fas fa-star-half-alt fa-sm text-warning"></i></li>
+              </ul>
+            </div>
+          </div>
           <!-- Add more customer reviews here -->
         </div>
-
       </div>
     </div>
   </section>
+  
+  <!-- Popup Form -->
+  <!-- <div id="popup-form" class="popup-form">
+    <form id="messageForm" method="post" onsubmit="return validateForm()">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-outline mb-4">
+            <label class="form-label" for="contactBlockName1">Name</label>
+            <input type="text" id="contactBlockName1" class="form-control" required/>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-outline mb-4">
+            <label class="form-label" for="contactBlockEmail2">Email</label>
+            <input type="email" id="contactBlockEmail2" class="form-control" required/>
+          </div>
+        </div>
+      </div>
+      <div class="form-outline mb-4">
+        <label class="form-label" for="contactBlockMessage4">Message</label>
+        <textarea class="form-control" id="contactBlockMessage4" rows="4" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-dark btn-block">Send message</button>
+    </form>
+  </div>
+   -->
 
 
 
-   <!-- Footer -->
-   <div class="footer-container">
+  <!-- Footer -->
+  <div class="footer-container">
     <footer class="text-center text-lg-start  text-muted footer-section">
       <!-- Section: Social media -->
       <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
@@ -290,6 +345,41 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script>
+    // Function to open the popup form
+function openPopupForm() {
+  const popupForm = document.getElementById("popup-form");
+  popupForm.classList.add("show");
+}
+
+// Function to close the popup form
+function closePopupForm() {
+  const popupForm = document.getElementById("popup-form");
+  popupForm.classList.remove("show");
+}
+
+// Function to validate the form
+function validateForm() {
+  const name = document.getElementById("contactBlockName1").value.trim();
+  const email = document.getElementById("contactBlockEmail2").value.trim();
+  const message = document.getElementById("contactBlockMessage4").value.trim();
+
+  if (name === '' || email === '' || message === '') {
+    alert("Please fill out all required fields.");
+    return false;
+  }
+
+  // Close the popup form after submission
+  closePopupForm();
+
+  // Show a success message
+  alert("Form is submitted!");
+  return true;
+}
+
+
+  </script>
 </body>
 
 </html>

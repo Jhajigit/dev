@@ -165,7 +165,7 @@ nav{
 }
 
 /*==category================================*/
-#category,
+/* #category,
 #popular-product,
 #popular-bundle-pack,
 #partner{
@@ -173,8 +173,8 @@ nav{
     flex-direction: column;
     max-width: 1000px;
     margin: 50px auto;
-}
-.category-heading,
+} */
+/* .category-heading,
 .product-heading,
 .partner-heading{
     display: flex;
@@ -188,38 +188,38 @@ nav{
     font-weight: 700;
     color: #202020;
     letter-spacing: 0.5px;
-}
-.category-heading span,
+} */
+/* .category-heading span,
 .product-heading span{
     color: #a7a7a7;
     font-weight: 400;
     letter-spacing: 1px;
-}
-.category-container{
+} */
+/* .category-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 40px;
-}
-.category-box{
+} */
+/* .category-box{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     /* background-color: #fafafa;
     border-radius: 10px; */
-    min-height: 130px;
-    width: 120px;
+    /* min-height: 130px;
+    width: 120px; */
     /* border: 1px solid rgba(0,0,0,0.03); */
-}
-.category-box img{
+/* }  */
+/* .category-box img{ */
     /* height: 35px; */
-    width: 60px;
+    /* width: 60px;
     object-fit: contain;
     object-position: center;
-    transition: all ease 0.1s;
-}
-.category-box span{
+    transition: all ease 0.1s; */
+/* } */
+/* .category-box span{
     color: #393939;
     font-size: 0.8rem;
     margin-top: 20px;
@@ -229,7 +229,7 @@ nav{
 .category-box:hover img{
     transform: scale(1.1);
     transition: all ease 0.1s;
-}
+} */
 
 
 
@@ -310,7 +310,7 @@ nav{
         width: 120px;
     } */
 
-    .category-heading {
+    /* .category-heading {
         text-align: center;
     }
 
@@ -329,7 +329,7 @@ nav{
     .category-box img {
         width: 100%;
         height: auto;
-    }
+    } */
     .footer-section section .footer-img img {
         width: fit-content;
     }
@@ -342,7 +342,7 @@ nav{
 }
 
 @media (min-width: 767px) {
-    .category-heading {
+    /* .category-heading {
         text-align: center;
     }
 
@@ -361,7 +361,7 @@ nav{
     .category-box img {
         width: 100%;
         height: auto;
-    }
+    } */
 
 
     .footer-container .footer-section .link-section .link-container .footer-logo{
@@ -387,7 +387,7 @@ nav{
     }
 }
 @media (min-width: 567px) {
-    .category-heading {
+    /* .category-heading {
         text-align: center;
     }
 
@@ -406,7 +406,7 @@ nav{
     .category-box img {
         width: 100%;
         height: auto;
-    }
+    } */
 
     /*==Download-app===================================*/
 

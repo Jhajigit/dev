@@ -83,8 +83,6 @@
   </div>
 
 
-
-
   <!--==Search-banner=======================================-->
   <section id="search-banner">
     <!--bg--------->
@@ -109,45 +107,270 @@
   <!--search-banner-end--------------->
 
   <!--==category=========================================-->
-  <section id="category" class="container-fluid">
+  <section id="category" class="container-fluid overflow-hidden">
     <!--heading---------------->
     <div class="category-heading">
-      <h2 class="ms-4">Category</h2>
-      <span class="me-4">All</span>
+      <!-- <h2 class="ms-4">Category</h2>
+      <span class="me-4">All</span> -->
+      <div class="row">
+        <div class="col text-start m-3"> <span class="">
+            <h6 class="mx-4 px-2 text-bold-800">Category</h6>
+          </span></div>
+        <div class="col text-end m-3"><span class="me-5">All</span></div>
+      </div>
     </div>
     <!--box-container---------->
-    <div class="category-container">
-
-      <!--box---------------->
-      <a href="#" class="category-box text-decoration-none">
+    <div class="category-container ms-4">
+      <div class="row row-cols-2 row-cols-lg-4 g-2 g-lg-3">
+        <!--box---------------->
+        <!-- <a href="#" class="category-box text-decoration-none">
         <img src="images/category-image/personal care.jpg" alt="personal care" />
         <span>Personal Care</span>
-      </a>
-      <!--box---------------->
-      <a href="#" class="category-box text-decoration-none">
-        <img src="images/category-image/spices.jpeg" alt="spices" />
-        <span>Spices</span>
-      </a>
-      <!--box---------------->
-      <a href="#" class="category-box text-decoration-none">
-        <img src="images/category-image/snacks.jpg" alt="beverages" />
-        <span style="">Beverages & Snacks</span>
-      </a>
-      <!--box---------------->
-      <a href="#" class="category-box text-decoration-none">
-        <img src="images/category-image/health.jpg" alt="health & wellness" />
-        <span style="">Health & Wellness</span>
-      </a>
-      <!--box---------------->
-      <a href="#" class="category-box text-decoration-none">
-        <img src="images/category-image/dairy products.jpeg" alt="dairy products" />
-        <span>Dairy Products</span>
-      </a>
-      <!--box---------------->
-      <a href="#" class="category-box text-decoration-none">
-        <img src="images/category-image/rice atta dals.jpg" alt="atta" />
-        <span>Atta Rice & Dals</span>
-      </a>
+      </a> -->
+        <div class="col col-lg-4 col-md-6 mb-4">
+          <div class="card" style="width:25rem;">
+            <div class="bg-image hover-zoom ripple shadow-1-strong rounded">
+              <img src="./images/category-image/category/personal-care.jpg" class="w-100" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(0, 0, 0, 0.3);">
+                  <!-- <div class="d-flex justify-content-end align-items-end h-100">
+                            <h5><span class="badge bg-body-tertiary pt-2 ms-3 mt-3 text-dark">$123</span>
+                            </h5>
+                        </div> -->
+                </div>
+                <div class="hover-overlay">
+                  <div class="mask" style="background-color: rgba(253, 253, 253, 0.15);"></div>
+                </div>
+              </a>
+            </div>
+            <div class="card-body pt-3 pb-2">
+              <div class="row ">
+                <div class="col-lg-8 col-md-8 col-sm-12">
+                  <a class="card-title text-decoration-none text-center">
+                    <h6 class=" m-0">Personal Care Products</h6>
+                    <!-- <span class="badge bg-body-tertiary text-dark">$123</span> -->
+                  </a>
+                </div>
+                <!-- <span class="ms-4 p-2">
+                            <a href="#" class=""><i class="fa-regular fa-heart text-danger"></i></a>
+                        </span> -->
+
+                <!-- <div class="text-end mt-2"> -->
+                <div class="col-lg-4 col-md-4 col-sm-12 text-end">
+                  <a href="#" class="btn position-relative" style="background-color: #ff8c00;">
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-dark">
+                      1
+                    </span>
+                    <i class="fa-solid fa-cart-shopping" style="color: #fff;"></i>
+
+                  </a>
+                </div>
+                <!-- </div> -->
+                <!-- </a> -->
+              </div>
+              <!-- <div class="text-end mt-2">
+                        <a href="#" class="btn position-relative" style="background-color: #ff8c00;" >
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-dark">
+                            1
+                          </span>
+                          <i class="fa-solid fa-cart-shopping" style="color: #fff;" ></i>
+                          
+                        </a>
+                </div> -->
+            </div>
+          </div>
+        </div>
+        <!--box---------------->
+        <!-- <a href="#" class="category-box text-decoration-none">
+          <img src="images/category-image/spices.jpeg" alt="spices" />
+          <span>Spices</span>
+        </a> -->
+        <div class="col col-lg-4 col-md-6 mb-4">
+          <div class="card" style="width:25rem;">
+            <div class="bg-image hover-zoom ripple shadow-1-strong rounded">
+              <img src="./images/category-image/category/spices.jpg" class="w-100" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(0, 0, 0, 0.3);">
+                </div>
+                <div class="hover-overlay">
+                  <div class="mask" style="background-color: rgba(253, 253, 253, 0.15);"></div>
+                </div>
+              </a>
+            </div>
+            <div class="card-body pt-3 pb-2">
+              <div class="row ">
+                <div class="col-lg-8 col-md-8 col-sm-12">
+                  <a class="card-title text-decoration-none text-center">
+                    <h6 class=" m-0">Spices (Masala)</h6>
+                  </a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 text-end">
+                  <a href="#" class="btn position-relative" style="background-color: #ff8c00;">
+                    <!-- <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-dark">
+                      1
+                    </span> -->
+                    <i class="fa-solid fa-cart-shopping" style="color: #fff;"></i>
+
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--box---------------->
+        <!-- <a href="#" class="category-box text-decoration-none">
+          <img src="images/category-image/snacks.jpg" alt="beverages" />
+          <span style="">Beverages & Snacks</span>
+        </a> -->
+
+        <div class="col col-lg-4 col-md-6 mb-4">
+          <div class="card" style="width:25rem;">
+            <div class="bg-image hover-zoom ripple shadow-1-strong rounded">
+              <img src="./images/category-image/category/bevrage& snacks.jpg" class="w-100" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(0, 0, 0, 0.3);">
+                </div>
+                <div class="hover-overlay">
+                  <div class="mask" style="background-color: rgba(253, 253, 253, 0.15);"></div>
+                </div>
+              </a>
+            </div>
+            <div class="card-body pt-3 pb-2">
+              <div class="row ">
+                <div class="col-lg-8 col-md-8 col-sm-12">
+                  <a class="card-title text-decoration-none text-center">
+                    <h6 class=" m-0">Beverages & Snacks</h6>
+                  </a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 text-end">
+                  <a href="#" class="btn position-relative" style="background-color: #ff8c00;">
+                    <!-- <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-dark">
+                      1
+                    </span> -->
+                    <i class="fa-solid fa-cart-shopping" style="color: #fff;"></i>
+
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--box---------------->
+        <!-- <a href="#" class="category-box text-decoration-none">
+          <img src="images/category-image/health.jpg" alt="health & wellness" />
+          <span style="">Health & Wellness</span>
+        </a> -->
+        <div class="col col-lg-4 col-md-6 mb-4">
+          <div class="card" style="width:25rem;">
+            <div class="bg-image hover-zoom ripple shadow-1-strong rounded">
+              <img src="./images/category-image/category/health&welness.jpg" class="w-100" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(0, 0, 0, 0.3);">
+                </div>
+                <div class="hover-overlay">
+                  <div class="mask" style="background-color: rgba(253, 253, 253, 0.15);"></div>
+                </div>
+              </a>
+            </div>
+            <div class="card-body pt-3 pb-2">
+              <div class="row ">
+                <div class="col-lg-8 col-md-8 col-sm-12">
+                  <a class="card-title text-decoration-none text-center">
+                    <h6 class=" m-0">Health & Wellness</h6>
+                  </a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 text-end">
+                  <a href="#" class="btn position-relative" style="background-color: #ff8c00;">
+                    <!-- <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-dark">
+                      1
+                    </span> -->
+                    <i class="fa-solid fa-cart-shopping" style="color: #fff;"></i>
+
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--box---------------->
+        <!-- <a href="#" class="category-box text-decoration-none">
+          <img src="images/category-image/dairy products.jpeg" alt="dairy products" />
+          <span>Dairy Products</span>
+        </a> -->
+        <div class="col col-lg-4 col-md-6 mb-4">
+          <div class="card" style="width:25rem;">
+            <div class="bg-image hover-zoom ripple shadow-1-strong rounded">
+              <img src="./images/category-image/category/dairy-products.jpg" class="w-100" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(0, 0, 0, 0.3);">
+                </div>
+                <div class="hover-overlay">
+                  <div class="mask" style="background-color: rgba(253, 253, 253, 0.15);"></div>
+                </div>
+              </a>
+            </div>
+            <div class="card-body pt-3 pb-2">
+              <div class="row ">
+                <div class="col-lg-8 col-md-8 col-sm-12">
+                  <a class="card-title text-decoration-none text-center">
+                    <h6 class=" m-0">DairyProducts</h6>
+                  </a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 text-end">
+                  <a href="#" class="btn position-relative" style="background-color: #ff8c00;">
+                    <!-- <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-dark">
+                      1
+                    </span> -->
+                    <i class="fa-solid fa-cart-shopping" style="color: #fff;"></i>
+
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--box---------------->
+        <!-- <a href="#" class="category-box text-decoration-none">
+          <img src="images/category-image/rice atta dals.jpg" alt="atta" />
+          <span>Atta Rice & Dals</span>
+        </a> -->
+        <div class="col col-lg-4 col-md-6 mb-4">
+          <div class="card" style="width:25rem;">
+            <div class="bg-image hover-zoom ripple shadow-1-strong rounded">
+              <img src="./images/category-image/category/Atta Rice & Dals.jpg" class="w-100" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(0, 0, 0, 0.3);">
+                </div>
+                <div class="hover-overlay">
+                  <div class="mask" style="background-color: rgba(253, 253, 253, 0.15);"></div>
+                </div>
+              </a>
+            </div>
+            <div class="card-body pt-3 pb-2">
+              <div class="row ">
+                <div class="col-lg-8 col-md-8 col-sm-12">
+                  <a class="card-title text-decoration-none text-center">
+                    <h6 class=" m-0">Atta Rice & Dals</h6>
+                  </a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 text-end">
+                  <a href="#" class="btn position-relative" style="background-color: #ff8c00;">
+                    <!-- <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-dark">
+                      1
+                    </span> -->
+                    <i class="fa-solid fa-cart-shopping" style="color: #fff;"></i>
+
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </div>
   </section>
   <!--category-end----------------------------------->
@@ -170,7 +393,7 @@
       <!--btns------->
       <div class="download-btns">
         <a href="#"><img src="images/appstore-btn.png" alt="" /></a>
-        <a href="#"><img src="images/googleplay-btn.png" alt="" /></a>
+        <a href="https://play.google.com/store/apps/details?id=com.apponward.grofKit"><img src="images/googleplay-btn.png" alt="" /></a>
       </div>
     </div>
   </section>
