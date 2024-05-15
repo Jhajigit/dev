@@ -12,6 +12,11 @@
   <link rel="stylesheet" href="./css/index.css">
   <link rel="stylesheet" href="./css/footer.css">
   <link rel="stylesheet" href="./css/about.css">
+  <!-- Template Main CSS File -->
+  <link rel="stylesheet" href="./assets/css/main.css">
+
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- fontawsome cdn-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -33,14 +38,24 @@
 
   <nav class="navbar navbar-expand-lg sticky-top justify-content-between">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="./images/logo.jpeg" alt="Logo" width="200" height="60" class="d-inline-block align-text-top">
+      <a class="navbar-brand d-flex align-items-center" href="../grofkit/index.html">
+        <div class="d-flex">
+          <img src="../grofkit/images/logo.jpeg" alt="Logo" width="200" height="60"
+            class="d-inline-block align-text-top">
+          <div class="d-flex">
+            <h2 class="text-uppercase d-flex my-2 mx-3">grofkit
+              <span>
+                <!-- <h2 class="text-uppercase text-light">kit</h2> -->
+              </span>
+            </h2>
+            <!-- <p class="d-inline-block">Get what you need instantly!!</p> -->
+          </div>
+        </div>
       </a>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav mx-auto text-center">
           <li class="nav-item px-2 py-2">
-            <a class="nav-link text-uppercase text-dark active" aria-current="page"
-              href="./index.html">Home</a>
+            <a class="nav-link text-uppercase text-dark active" aria-current="page" href="./index.html">Home</a>
           </li>
           <li class="nav-item px-2 py-2">
             <a class="nav-link text-uppercase text-dark" href="./career.html">Career</a>
@@ -75,16 +90,16 @@
     </div>
     <div class="offcanvas-body">
       <ul class="list-group text-center offcanvas-ul">
-        <li class="list-group-item border-0 mb-4"><a href="./index.html"
-            class="text-decoration-none text-dark">Home</a></li>
+        <li class="list-group-item border-0 mb-4"><a href="./index.html" class="text-decoration-none text-dark">Home</a>
+        </li>
         <li class="list-group-item border-0 mb-4"><a href="./career.html"
             class="text-decoration-none text-dark">Career</a></li>
         <li class="list-group-item border-0 mb-4"><a href="./partner.html"
             class="text-decoration-none text-dark">Partner</a></li>
         <li class="list-group-item border-0 mb-4"><a href="./aboutus.html"
             class="text-decoration-none text-dark">About</a></li>
-        <li class="list-group-item border-0 mb-4"><a href="./blog.html"
-            class="text-decoration-none text-dark">Blog</a></li>
+        <li class="list-group-item border-0 mb-4"><a href="./blog.html" class="text-decoration-none text-dark">Blog</a>
+        </li>
       </ul>
     </div>
   </div>
@@ -134,261 +149,95 @@
       </div>
     </div>
   </section>
+  
 
+  <!-- ======= testimonial Section ======= -->
+  <section id="members" class="members section-bg">
+    <div class="container" data-aos="fade-up">
 
-  <section class="mb-3">
-    <div class="container">
-
-    </div>
-  </section>
-
-
-
-  <!-- start for testimonial-->
-  <section class="py-5">
-    <div class="container">
-      <div class="row d-flex justify-content-center">
-        <div class="col-md-10 col-xl-8 text-center">
-          <h3 class="mb-4">Testimonials</h3>
-        </div>
+      <div class="section-header">
+        <!-- <h2>members</h2> -->
+        <p>Our <span>Proffesionals</span> 
+          <!-- members -->
+        </p>
       </div>
 
+      <div class="row gy-4">
 
-      <div class="card-deck">
-
-        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-              aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-              aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-              aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
-              aria-label="Slide 4"></button>
-          </div>
-
-          <div class="carousel-inner">
-            <div class="row text-center">
-
-
-
-              <!-- <div class="col-md-4 mb-5 mb-md-0"> -->
-              <div class="carousel-item active">
-                <div class="card border-0 shadow p-3 mb-5 bg-body rounded">
-                  <div class="mb-3">
-                    <div class="d-flex justify-content-center mb-4">
-                      <!-- <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" -->
-                      <img src="./images/employees/img_avatar.png"
-                        class="rounded-circle shadow-1-strong" width="150" height="150" />
-                    </div>
-                    <h5 class="mb-3">Aditya Kumar Mishra</h5>
-                    <h6 class="text-primary mb-3">Founder</h6>
-                    <p class="px-xl-3">
-                      <i class="fas fa-quote-left pe-2"></i>
-                      A true visionary who turned a simple idea into a thriving
-                      business, inspiring us all along the way
-                    </p>
-                    <ul class="list-unstyled d-flex justify-content-center mb-0">
-                      <li>
-                        <i class="fas fa-star fa-sm text-warning"></i>
-                      </li>
-                      <li>
-                        <i class="fas fa-star fa-sm text-warning"></i>
-                      </li>
-                      <li>
-                        <i class="fas fa-star fa-sm text-warning"></i>
-                      </li>
-                      <li>
-                        <i class="fas fa-star fa-sm text-warning"></i>
-                      </li>
-                      <li>
-                        <i class="fas fa-star-half-alt fa-sm text-warning"></i>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+          <div class="employee-members">
+            <div class="member-img">
+              <img src="./images/employees/web-developer.jpg" class="img-fluid" alt="">
+              <div class="social">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
               </div>
-              <!-- </div> -->
-
-              <div class="carousel-item ">
-                <div class="card border-0 shadow p-3 mb-5 bg-body rounded">
-                  <!-- <div class="carousel-item active"> -->
-                  <div class="mb-3">
-                    <div class="d-flex justify-content-center mb-4">
-                      <img src="./images/employees/web-developer.jpg"
-                        class="rounded-circle shadow-1-strong" width="150" height="150" />
-                    </div>
-                    <h5 class="mb-3">Kajal Jha</h5>
-                    <h6 class="text-primary mb-3">Web Developer</h6>
-                    <p class="px-xl-3">
-                      <i class="fas fa-quote-left pe-2"></i>With their expertise, our website went from mediocre to
-                      magnificent in no time!
-                    </p>
-                    <ul class="list-unstyled d-flex justify-content-center mb-0">
-                      <li>
-                        <i class="fas fa-star fa-sm text-warning"></i>
-                      </li>
-                      <li>
-                        <i class="fas fa-star fa-sm text-warning"></i>
-                      </li>
-                      <li>
-                        <i class="fas fa-star fa-sm text-warning"></i>
-                      </li>
-                      <li>
-                        <i class="fas fa-star fa-sm text-warning"></i>
-                      </li>
-                      <li>
-                        <i class="fas fa-star fa-sm text-warning"></i>
-                      </li>
-                    </ul>
-                  </div>
-                  <!-- </div> -->
-                </div>
-              </div>
-
-
-              <!-- <div class="col-md-4 mb-5 mb-md-0"> -->
-              <div class="carousel-item ">
-                <div class="card border-0 shadow p-3 mb-5 bg-body rounded">
-                  <!-- <div class="carousel-item active"> -->
-                  <div class="mb-3">
-                    <div class="d-flex justify-content-center mb-4">
-                      <img src="./images/employees/digital- marketing kamran.png"
-                        class="rounded-circle shadow-1-strong" width="150" height="150" />
-                    </div>
-                    <h5 class="mb-3">Kamran</h5>
-                    <h6 class="text-primary mb-3">Digital Marketing</h6>
-                    <p class="px-xl-3">
-                      <i class="fas fa-quote-left pe-2"></i>Their strategies catapulted our online presence to new
-                      heights, driving unprecedented traffic and engagement
-                    </p>
-                    <ul class="list-unstyled d-flex justify-content-center mb-0">
-                      <li>
-                        <i class="fas fa-star fa-sm text-warning"></i>
-                      </li>
-                      <li>
-                        <i class="fas fa-star fa-sm text-warning"></i>
-                      </li>
-                      <li>
-                        <i class="fas fa-star fa-sm text-warning"></i>
-                      </li>
-                      <li>
-                        <i class="fas fa-star fa-sm text-warning"></i>
-                      </li>
-                      <li>
-                        <i class="fas fa-star fa-sm text-warning"></i>
-                      </li>
-                    </ul>
-                  </div>
-                  <!-- </div> -->
-                </div>
-              </div>
-              <!-- </div> -->
-
-
-              <div class="carousel-item ">
-                <div class="card border-0 shadow p-3 mb-5 bg-body rounded">
-                  <!-- <div class="carousel-item active"> -->
-                  <div class="mb-3">
-                    <div class="d-flex justify-content-center mb-4">
-                      <img src="./images/employees/co-founder.jpeg"
-                        class="rounded-circle shadow-1-strong" width="150" height="150" />
-                    </div>
-                    <h5 class="mb-3">Ankit Kumar</h5>
-                    <h6 class="text-primary mb-3">Co-founder</h6>
-                    <p class="px-xl-3">
-                      <i class="fas fa-quote-left pe-2"></i>Incredible vision and dedication – the driving force behind
-                      our company's success.
-                    </p>
-                    <ul class="list-unstyled d-flex justify-content-center mb-0">
-                      <li>
-                        <i class="fas fa-star fa-sm text-warning"></i>
-                      </li>
-                      <li>
-                        <i class="fas fa-star fa-sm text-warning"></i>
-                      </li>
-                      <li>
-                        <i class="fas fa-star fa-sm text-warning"></i>
-                      </li>
-                      <li>
-                        <i class="fas fa-star fa-sm text-warning"></i>
-                      </li>
-                      <li>
-                        <i class="fas fa-star fa-sm text-warning"></i>
-                      </li>
-                    </ul>
-                  </div>
-                  <!-- </div> -->
-                </div>
-              </div>
-
-
-              <div class="carousel-item ">
-                <div class="card border-0 shadow p-3 mb-5 bg-body rounded">
-                  <!-- <div class="carousel-item active"> -->
-                  <div class="mb-3">
-                    <div class="d-flex justify-content-center mb-4">
-                      <img src="./images/employees/warehouse-incharge.jpeg"
-                        class="rounded-circle shadow-1-strong" width="150" height="150" />
-                    </div>
-                    <h5 class="mb-3">Sachin Kumar</h5>
-                    <h6 class="text-primary mb-3">Warehouse Incharge</h6>
-                    <p class="px-xl-3">
-                      <i class="fas fa-quote-left pe-2"></i>Incredible vision and dedication – the driving force behind our warehouse's impeccable efficiency and seamless operations
-                    </p>
-                    <ul class="list-unstyled d-flex justify-content-center mb-0">
-                      <li>
-                        <i class="fas fa-star fa-sm text-warning"></i>
-                      </li>
-                      <li>
-                        <i class="fas fa-star fa-sm text-warning"></i>
-                      </li>
-                      <li>
-                        <i class="fas fa-star fa-sm text-warning"></i>
-                      </li>
-                      <li>
-                        <i class="fas fa-star fa-sm text-warning"></i>
-                      </li>
-                      <li>
-                        <i class="fas fa-star fa-sm text-warning"></i>
-                      </li>
-                    </ul>
-                  </div>
-                  <!-- </div> -->
-                </div>
-              </div>
-
-
-             
-
+            </div>
+            <div class="member-info">
+              <h4>Kajal Jha</h4>
+              <span>Web Developer</span>
+              <p>Unlock the power of web development with our curated resources and tutorials. Dive into coding and
+                create stunning websites that captivate users</p>
             </div>
           </div>
+        </div><!-- End Member -->
 
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+          <div class="employee-members">
+            <div class="member-img">
+              <img src="./images/employees/digital-marketing.jpg" class="img-fluid" alt="">
+              <div class="social">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="member-info">
+              <h4>Kamran</h4>
+              <span>Digital Marketing</span>
+              <p>Elevate your brand's online presence with targeted digital marketing strategies. Reach your audience
+                effectively through SEO, social media, and compelling content</p>
+            </div>
+          </div>
+        </div><!-- End members Member -->
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+          <div class="employee-members">
+            <div class="member-img">
+              <img src="./images/employees/warehouse-incharge.jpg" class="img-fluid" alt="">
+              <div class="social">
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="member-info">
+              <h4>Sachin Kumar</h4>
+              <span>Warehouse Incharge</span>
+              <p>Optimize warehouse operations for efficiency and accuracy while ensuring seamless inventory management.
+                Lead a team to meet shipping deadlines and maintain a safe working environment.</p>
+            </div>
+          </div>
+        </div><!-- End members Member -->
+
       </div>
-    </div>
-  </section>
-  <!-- end of testimonial-->
 
-  <section>
+    </div>
+  </section><!-- End members Section -->
+
+
+  <!-- <section> -->
     <!-- Start contact form -->
-    <div class="container-fluid">
+    <div class="container-fluid section-bg mt-5">
 
       <!-- Section: Design block -->
-      <section class="mb-10">
+      <div class=" contact">
         <div class="row">
-          <div class="col-md-6 col-lg-6">
+          <div class="col-md-6 col-lg-6 mt-3">
             <div class="ms-3">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18906.129712753736!2d6.722624160288201!3d60.12672284414915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x463e997b1b6fc09d%3A0x6ee05405ec78a692!2sJ%C4%99zyk%20trola!5e0!3m2!1spl!2spl!4v1672239918130!5m2!1spl!2spl"
@@ -398,25 +247,25 @@
           </div>
 
 
-          <div class="col-md-6 col-lg-6 text-center">
+          <div class="col-md-6 col-lg-6 mt-3 text-center">
             <div class="card border-2 shadow  p-3 mb-5 rounded">
               <div class="card-header border-0 bg-transparent ">
                 <h4 class="mb-4 mt-3 text-capitalize text-dark">Contact us</h4>
               </div>
-              <form>
+              <form method="get" action="">
                 <div class="row">
                   <!-- <div class="p-3"> -->
                   <div class="col-md-6">
                     <div class="form-outline mb-4" data-mdb-input-init>
                       <label class="form-label" for="contactBlockName1">Name</label>
-                      <input type="text" id="contactBlockName1" class="form-control" />
+                      <input type="text" id="contactBlockName1" class="form-control" required/>
 
                     </div>
                   </div>
                   <div class="col-md-6">
                     <div class="form-outline mb-4" data-mdb-input-init>
                       <label class="form-label" for="contactBlockEmail2">Email</label>
-                      <input type="email" id="contactBlockEmail2" class="form-control" />
+                      <input type="email" id="contactBlockEmail2" class="form-control" required/>
 
                     </div>
                   </div>
@@ -429,7 +278,7 @@
                 </div>
                 <div class="form-outline mb-4" data-mdb-input-init>
                   <label class="form-label" for="contactBlockMessage4">Message</label>
-                  <textarea class="form-control" id="contactBlockMessage4" rows="4"></textarea>
+                  <textarea class="form-control" id="contactBlockMessage4" rows="4" required></textarea>
 
                 </div>
                 <button type="button" class="btn btn-dark btn-block" data-mdb-ripple-init>Send message</button>
@@ -437,16 +286,16 @@
             </div>
           </div>
         </div>
-      </section>
+      </div>
       <!-- Section: Design block -->
 
     </div>
     <!-- end contact form  -->
-  </section>
+  <!-- </section> -->
 
 
-   <!-- Footer -->
-   <div class="footer-container">
+  <!-- Footer -->
+  <div class="footer-container">
     <footer class="text-center text-lg-start  text-muted footer-section">
       <!-- Section: Social media -->
       <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">

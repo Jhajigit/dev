@@ -1,5 +1,5 @@
 <?php
-$config_file = "/var/www/html/apps/yashTest/config/appConfiguration.ini";
+$config_file = "/var/www/html/grofkit/test/config/appConfiguration.ini";
 
 if(!file_exists($config_file)){
     //error_logs("Error: Configuration File Missing");

@@ -10,6 +10,10 @@
 
   <link rel="stylesheet" href="../grofkit/css/index.css">
   <link rel="stylesheet" href="../grofkit/css/footer.css">
+
+
+  <!-- Template Main CSS File -->
+  <link rel="stylesheet" href="./assets/css/main.css">
   <!-- font Awsome cdn-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
@@ -26,8 +30,19 @@
 
   <nav class="navbar navbar-expand-lg sticky-top justify-content-between">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="../grofkit/images/logo.jpeg" alt="Logo" width="200" height="60" class="d-inline-block align-text-top">
+      <a class="navbar-brand d-flex align-items-center" href="../grofkit/index.html">
+        <div class="d-flex">
+          <img src="../grofkit/images/logo.jpeg" alt="Logo" width="200" height="60"
+            class="d-inline-block align-text-top">
+          <div class="d-flex">
+            <h2 class="text-uppercase d-flex my-2 mx-3">grofkit
+              <span>
+                <!-- <h2 class="text-uppercase text-light">kit</h2> -->
+              </span>
+            </h2>
+            <!-- <p class="d-inline-block">Get what you need instantly!!</p> -->
+          </div>
+        </div>
       </a>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav mx-auto text-center">
@@ -107,36 +122,31 @@
   <!--search-banner-end--------------->
 
   <!--==category=========================================-->
-  <section id="category" class="container-fluid overflow-hidden">
+  <section id="category" class="container-fluid overflow-hidden p-0">
     <!--heading---------------->
     <div class="category-heading">
       <!-- <h2 class="ms-4">Category</h2>
       <span class="me-4">All</span> -->
       <div class="row">
         <div class="col text-start m-3"> <span class="">
-            <h6 class="mx-4 px-2 text-bold-800">Category</h6>
+            <h6 class="mx-4 px-2 fs-5">Category</h6>
           </span></div>
-        <div class="col text-end m-3"><span class="me-5">All</span></div>
+        <div class="col text-end m-3"> <a class="text-decoration-none text-dark"
+            href="https://play.google.com/store/apps/details?id=com.apponward.grofKit">
+            <span class="me-5 fs-5">All</span></a></div>
       </div>
     </div>
     <!--box-container---------->
     <div class="category-container ms-4">
       <div class="row row-cols-2 row-cols-lg-4 g-2 g-lg-3">
         <!--box---------------->
-        <!-- <a href="#" class="category-box text-decoration-none">
-        <img src="images/category-image/personal care.jpg" alt="personal care" />
-        <span>Personal Care</span>
-      </a> -->
+
         <div class="col col-lg-4 col-md-6 mb-4">
           <div class="card" style="width:25rem;">
             <div class="bg-image hover-zoom ripple shadow-1-strong rounded">
               <img src="./images/category-image/category/personal-care.jpg" class="w-100" />
               <a href="#!">
                 <div class="mask" style="background-color: rgba(0, 0, 0, 0.3);">
-                  <!-- <div class="d-flex justify-content-end align-items-end h-100">
-                            <h5><span class="badge bg-body-tertiary pt-2 ms-3 mt-3 text-dark">$123</span>
-                            </h5>
-                        </div> -->
                 </div>
                 <div class="hover-overlay">
                   <div class="mask" style="background-color: rgba(253, 253, 253, 0.15);"></div>
@@ -145,46 +155,24 @@
             </div>
             <div class="card-body pt-3 pb-2">
               <div class="row ">
-                <div class="col-lg-8 col-md-8 col-sm-12">
-                  <a class="card-title text-decoration-none text-center">
-                    <h6 class=" m-0">Personal Care Products</h6>
-                    <!-- <span class="badge bg-body-tertiary text-dark">$123</span> -->
-                  </a>
-                </div>
-                <!-- <span class="ms-4 p-2">
-                            <a href="#" class=""><i class="fa-regular fa-heart text-danger"></i></a>
-                        </span> -->
-
-                <!-- <div class="text-end mt-2"> -->
-                <div class="col-lg-4 col-md-4 col-sm-12 text-end">
+                <!-- <div class="col-lg-8 col-md-8 col-sm-12"> -->
+                <a class="card-title text-decoration-none text-center">
+                  <h6 class=" m-0 fs-5">Personal Care Products</h6>
+                </a>
+                <!-- </div> -->
+                <!-- <div class="col-lg-4 col-md-4 col-sm-12 text-end">
                   <a href="#" class="btn position-relative" style="background-color: #ff8c00;">
                     <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-dark">
                       1
                     </span>
                     <i class="fa-solid fa-cart-shopping" style="color: #fff;"></i>
-
                   </a>
-                </div>
-                <!-- </div> -->
-                <!-- </a> -->
-              </div>
-              <!-- <div class="text-end mt-2">
-                        <a href="#" class="btn position-relative" style="background-color: #ff8c00;" >
-                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-dark">
-                            1
-                          </span>
-                          <i class="fa-solid fa-cart-shopping" style="color: #fff;" ></i>
-                          
-                        </a>
                 </div> -->
+              </div>
             </div>
           </div>
         </div>
         <!--box---------------->
-        <!-- <a href="#" class="category-box text-decoration-none">
-          <img src="images/category-image/spices.jpeg" alt="spices" />
-          <span>Spices</span>
-        </a> -->
         <div class="col col-lg-4 col-md-6 mb-4">
           <div class="card" style="width:25rem;">
             <div class="bg-image hover-zoom ripple shadow-1-strong rounded">
@@ -199,31 +187,17 @@
             </div>
             <div class="card-body pt-3 pb-2">
               <div class="row ">
-                <div class="col-lg-8 col-md-8 col-sm-12">
-                  <a class="card-title text-decoration-none text-center">
-                    <h6 class=" m-0">Spices (Masala)</h6>
-                  </a>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 text-end">
-                  <a href="#" class="btn position-relative" style="background-color: #ff8c00;">
-                    <!-- <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-dark">
-                      1
-                    </span> -->
-                    <i class="fa-solid fa-cart-shopping" style="color: #fff;"></i>
-
-                  </a>
-                </div>
+                <!-- <div class="col-lg-8 col-md-8 col-sm-12"> -->
+                <a class="card-title text-decoration-none text-center">
+                  <h6 class=" m-0 fs-5">Spices (Masala)</h6>
+                </a>
+                <!-- </div> -->
               </div>
             </div>
           </div>
         </div>
 
         <!--box---------------->
-        <!-- <a href="#" class="category-box text-decoration-none">
-          <img src="images/category-image/snacks.jpg" alt="beverages" />
-          <span style="">Beverages & Snacks</span>
-        </a> -->
-
         <div class="col col-lg-4 col-md-6 mb-4">
           <div class="card" style="width:25rem;">
             <div class="bg-image hover-zoom ripple shadow-1-strong rounded">
@@ -238,29 +212,21 @@
             </div>
             <div class="card-body pt-3 pb-2">
               <div class="row ">
-                <div class="col-lg-8 col-md-8 col-sm-12">
-                  <a class="card-title text-decoration-none text-center">
-                    <h6 class=" m-0">Beverages & Snacks</h6>
-                  </a>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 text-end">
+                <!-- <div class="col-lg-8 col-md-8 col-sm-12"> -->
+                <a class="card-title text-decoration-none text-center">
+                  <h6 class=" m-0 fs-5">Beverages & Snacks</h6>
+                </a>
+                <!-- </div> -->
+                <!-- <div class="col-lg-4 col-md-4 col-sm-12 text-end">
                   <a href="#" class="btn position-relative" style="background-color: #ff8c00;">
-                    <!-- <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-dark">
-                      1
-                    </span> -->
                     <i class="fa-solid fa-cart-shopping" style="color: #fff;"></i>
-
                   </a>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
         </div>
         <!--box---------------->
-        <!-- <a href="#" class="category-box text-decoration-none">
-          <img src="images/category-image/health.jpg" alt="health & wellness" />
-          <span style="">Health & Wellness</span>
-        </a> -->
         <div class="col col-lg-4 col-md-6 mb-4">
           <div class="card" style="width:25rem;">
             <div class="bg-image hover-zoom ripple shadow-1-strong rounded">
@@ -275,30 +241,22 @@
             </div>
             <div class="card-body pt-3 pb-2">
               <div class="row ">
-                <div class="col-lg-8 col-md-8 col-sm-12">
-                  <a class="card-title text-decoration-none text-center">
-                    <h6 class=" m-0">Health & Wellness</h6>
-                  </a>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 text-end">
+                <!-- <div class="col-lg-8 col-md-8 col-sm-12"> -->
+                <a class="card-title text-decoration-none text-center">
+                  <h6 class=" m-0 fs-5">Health & Wellness</h6>
+                </a>
+                <!-- </div> -->
+                <!-- <div class="col-lg-4 col-md-4 col-sm-12 text-end">
                   <a href="#" class="btn position-relative" style="background-color: #ff8c00;">
-                    <!-- <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-dark">
-                      1
-                    </span> -->
                     <i class="fa-solid fa-cart-shopping" style="color: #fff;"></i>
-
                   </a>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
         </div>
 
         <!--box---------------->
-        <!-- <a href="#" class="category-box text-decoration-none">
-          <img src="images/category-image/dairy products.jpeg" alt="dairy products" />
-          <span>Dairy Products</span>
-        </a> -->
         <div class="col col-lg-4 col-md-6 mb-4">
           <div class="card" style="width:25rem;">
             <div class="bg-image hover-zoom ripple shadow-1-strong rounded">
@@ -313,30 +271,22 @@
             </div>
             <div class="card-body pt-3 pb-2">
               <div class="row ">
-                <div class="col-lg-8 col-md-8 col-sm-12">
-                  <a class="card-title text-decoration-none text-center">
-                    <h6 class=" m-0">DairyProducts</h6>
-                  </a>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 text-end">
+                <!-- <div class="col-lg-8 col-md-8 col-sm-12"> -->
+                <a class="card-title text-decoration-none text-center">
+                  <h6 class=" m-0 fs-5">DairyProducts</h6>
+                </a>
+                <!-- </div> -->
+                <!-- <div class="col-lg-4 col-md-4 col-sm-12 text-end">
                   <a href="#" class="btn position-relative" style="background-color: #ff8c00;">
-                    <!-- <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-dark">
-                      1
-                    </span> -->
                     <i class="fa-solid fa-cart-shopping" style="color: #fff;"></i>
-
                   </a>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
         </div>
 
         <!--box---------------->
-        <!-- <a href="#" class="category-box text-decoration-none">
-          <img src="images/category-image/rice atta dals.jpg" alt="atta" />
-          <span>Atta Rice & Dals</span>
-        </a> -->
         <div class="col col-lg-4 col-md-6 mb-4">
           <div class="card" style="width:25rem;">
             <div class="bg-image hover-zoom ripple shadow-1-strong rounded">
@@ -351,20 +301,16 @@
             </div>
             <div class="card-body pt-3 pb-2">
               <div class="row ">
-                <div class="col-lg-8 col-md-8 col-sm-12">
-                  <a class="card-title text-decoration-none text-center">
-                    <h6 class=" m-0">Atta Rice & Dals</h6>
-                  </a>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 text-end">
+                <!-- <div class="col-lg-8 col-md-8 col-sm-12"> -->
+                <a class="card-title text-decoration-none text-center">
+                  <h6 class=" m-0 fs-5">Atta Rice & Dals</h6>
+                </a>
+                <!-- </div> -->
+                <!-- <div class="col-lg-4 col-md-4 col-sm-12 text-end">
                   <a href="#" class="btn position-relative" style="background-color: #ff8c00;">
-                    <!-- <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-dark">
-                      1
-                    </span> -->
                     <i class="fa-solid fa-cart-shopping" style="color: #fff;"></i>
-
                   </a>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -375,6 +321,62 @@
   </section>
   <!--category-end----------------------------------->
 
+
+  <!-- ======= Why Us Section ======= -->
+  <section id="why-us" class="why-us section-bg " style="background-color: #ecf7ee;">
+    <div class="container" data-aos="fade-up">
+      <div class="row gy-4">
+        <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="why-box">
+            <h3>Why Choose Us?</h3>
+            <p>
+              Select us for unparalleled expertise and commitment to excellence. With a proven track record of
+              delivering exceptional results, we prioritize customer satisfaction and tailor solutions to meet your
+              unique needs. Trust us to be your reliable partner, providing innovative solutions, unparalleled service,
+              and a dedication to exceeding your expectations.
+            </p>
+            <div class="text-center">
+              <a href="./blog.html" class="more-btn text-decoration-none">Learn More <i
+                  class="bx bx-chevron-right"></i></a>
+            </div>
+          </div>
+        </div><!-- End Why Box -->
+
+        <div class="col-lg-8 d-flex align-items-center">
+          <div class="row gy-4">
+
+            <div class="col-xl-4" data-aos="fade-up" data-aos-delay="200">
+              <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                <i class="bi bi-clipboard-data"></i>
+                <h4>Franchise Branch</h4>
+                <p> Join a proven business model, benefit from comprehensive support, and tap into a thriving market</p>
+              </div>
+            </div><!-- End Icon Box -->
+
+            <div class="col-xl-4" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                <i class="bi bi-gem"></i>
+                <h4>Online Shopping</h4>
+                <p>For online shopping, choose us for a seamless experience, diverse product range, and reliable
+                  customer service.</p>
+              </div>
+            </div><!-- End Icon Box -->
+
+            <div class="col-xl-4" data-aos="fade-up" data-aos-delay="400">
+              <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                <i class="bi bi-inboxes"></i>
+                <h4>Career Growth</h4>
+                <p> Unlock opportunities for advancement, skill development, and a supportive work culture.</p>
+              </div>
+            </div><!-- End Icon Box -->
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Why Us Section -->
 
   <!--==download-app====================================-->
   <section id="download-app">
@@ -393,11 +395,13 @@
       <!--btns------->
       <div class="download-btns">
         <a href="#"><img src="images/appstore-btn.png" alt="" /></a>
-        <a href="https://play.google.com/store/apps/details?id=com.apponward.grofKit"><img src="images/googleplay-btn.png" alt="" /></a>
+        <a href="https://play.google.com/store/apps/details?id=com.apponward.grofKit"><img
+            src="images/googleplay-btn.png" alt="" /></a>
       </div>
     </div>
   </section>
   <!--download-app-section-end------------------------->
+
 
   <!-- Footer -->
   <div class="footer-container">
